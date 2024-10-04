@@ -3,7 +3,7 @@ import React from "react";
 export default function Sidebar() {
   return (
     <>
-      <nav className="h-full flex space-y-2.5 flex-col py-[10px] px-2 w-[70px] border-r dark:border-dark-border border-light-border bg-light-foreground dark:bg-dark-foreground">
+      <nav className="h-full mt-10 z-[10] fixed left-0 flex space-y-2.5 flex-col py-[10px] px-2 w-[70px] border-r dark:border-dark-border border-light-border bg-light-foreground dark:bg-dark-foreground">
         <a className="w-full group transition-all ease-linear duration-100 flex flex-col items-center text-center justify-center">
           <div className="bg-zinc-800 flex flex-col items-center justify-center rounded-full h-8 w-full">
             <svg

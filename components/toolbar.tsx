@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Toolbar() {
   return (
-    <nav className="sticky top-0 border-b flex dark:border-dark-border flex-row items-center justify-between w-full py-1.5 bg-dark-foreground px-2">
+    <nav className="sticky top-0 z-50 border-b flex dark:border-dark-border flex-row items-center justify-between w-full py-1.5 bg-dark-foreground px-2">
       <div className="flex flex-row items-center space-x-0.5 w-full">
         <a className="text-sm hover:bg-zinc-800/70 px-[9px] py-1 rounded-lg hover:text-white text-zinc-50 transition-all ease-linear duration-100 font-normal tracking-[-0.015]">
           Dosya
