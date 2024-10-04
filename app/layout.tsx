@@ -19,7 +19,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} antialiased dark:bg-dark-background dark:text-dark-text bg-light-background text-light-text`}
+        className={`${inter.className} h-screen min-h-screen antialiased dark:bg-dark-background dark:text-dark-text bg-light-background text-light-text`}
       >
         {children}
       </body>
